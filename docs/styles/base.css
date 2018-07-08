@@ -22,18 +22,18 @@ h2 {
 	margin-bottom: 0;
 }
 
-a { 
-	color: #3498db; 
-	font-weight: 700; 
-	text-decoration: none; 
+a {
+	color: #3498db;
+	font-weight: 700;
+	text-decoration: none;
 	-webkit-transition: color 0.4s;
 	   -moz-transition: color 0.4s;
 	     -o-transition: color 0.4s;
 	        transition: color 0.4s;
 }
 
-a:hover { 
-	color: #2980b9; 
+a:hover {
+	color: #2980b9;
 }
 
 img {
@@ -124,14 +124,14 @@ img {
 
 #header a.active,
 #header a:hover {
-	border-bottom: 4px #FFF solid; 
+	border-bottom: 4px #FFF solid;
 }
 
 #logo {
-	position: relative;
+//	position: relative;
 	margin: 0 auto -90px auto;
 	width: 100px;
-	background: #fff;
+//	background: #fff;
 	z-index: 10;
 }
 
@@ -184,8 +184,8 @@ img {
  * PROJECT MAIN TEXT, ETC.
  ********************************/
 
-#content { 
-	display: none; 
+#content {
+	display: none;
 	background: #ecf0f1;
 }
 
@@ -290,17 +290,17 @@ ul.additional {
  * PROJECT THUMBNAILS
  ********************************/
 
-.projects { 
-	height: 100%; 
-	padding: 20px 0; 
+.projects {
+	height: 100%;
+	padding: 20px 0;
 }
 
 .projects#wip {
 	background: #515151;
 }
 
-.projects h3 { 
-	font-family: 'Open Sans'; 
+.projects h3 {
+	font-family: 'Open Sans';
 }
 
 .projects h3.category {
@@ -348,7 +348,7 @@ ul.additional {
 .piece:nth-child(even) {
 	margin-right: 0;
 }
-			
+
 
 .piece h3 {
 	position: absolute;
@@ -381,8 +381,8 @@ ul.additional {
  * FOOTER, CONTACT INFO
  ********************************/
 
-#footer { 
-	background: #333; 
-	text-align: center; 
-	color: #fff; 
+#footer {
+	background: #333;
+	text-align: center;
+	color: #fff;
 }
