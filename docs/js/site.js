@@ -13,7 +13,7 @@ var Sugarman = function () {
         });
 
         // event listener for animating the logo
-        $("#s").hover(
+/*        $("#s").hover(
             function(){
                 $(this).attr('src', "assets/logo/s.gif");
             },
@@ -21,7 +21,7 @@ var Sugarman = function () {
                 $(this).attr('src', "assets/logo/ss.png");
             }
         );
-
+*/
         // event listener for hashchange
         $(window).hashchange(function () {
             var hash = window.location.hash.substring(1);
