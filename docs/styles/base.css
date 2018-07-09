@@ -270,6 +270,7 @@ img {
   position: relative;
   height: 400px;
   overflow: hidden;
+  mix-blend-mode: multiply;
 }
 
 .project_head h1 {
