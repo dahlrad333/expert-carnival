@@ -270,7 +270,6 @@ img {
   position: relative;
   height: 400px;
   overflow: hidden;
-  mix-blend-mode: multiply;
 }
 
 .project_head h1 {
@@ -280,6 +279,7 @@ img {
   background: #FFF;
   color: #e74c3c;
   padding: 10px 10px 10px 0;
+  mix-blend-mode: multiply;
 }
 
 .quick_facts ul {
