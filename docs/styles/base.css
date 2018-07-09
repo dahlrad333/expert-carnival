@@ -80,13 +80,13 @@ img {
     background-position-y: 0;
   }
   to {
-    background-position-y: -552px;
+    background-position-y: -1920px;
   }
 }
 
 #header {
   color: #EDEDED;
-  padding: 20px 0 15px 0;
+//  padding: 20px 0 15px 0;
   min-height: 70px;
 }
 
@@ -136,9 +136,7 @@ img {
 }
 
 #logo img {
-  padding: 25px 31px 10px 31px;
-  width: auto;
-  mix-blend-mode: multiply;
+  mix-blend-mode: darken;
 }
 
 .ribbon-bottom {
