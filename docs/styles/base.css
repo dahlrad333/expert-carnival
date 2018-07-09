@@ -71,7 +71,7 @@ img {
  ********************************/
 
 .top-o-the-page {
-  animation: heroAnimation 30s infinite linear;
+  animation: heroAnimation 90s infinite linear;
   background: url('/assets/imgs/asteroids_transparent.png');
 }
 
@@ -162,7 +162,7 @@ img {
 #intro h1 {
   font-size: 50px;
   margin: 40px 0 0 0;
-  color: #fff;
+  color: darksalmon;
   font-family: monospace;
 }
 
@@ -170,7 +170,9 @@ img {
   font-family: 'Open Sans';
   margin: 10px 0 60px 0;
   font-weight: normal;
-  color: #fff;
+  color: yellow;
+  background-color: grey;
+  mix-blend-mode: luminosity;
 }
 
 #intro a {
