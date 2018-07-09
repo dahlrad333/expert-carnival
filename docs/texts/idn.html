@@ -1,21 +1,28 @@
 <div class="project_head">
     <div style="height:400px; overflow:hidden;"><img src="/assets/imgs/idn/idn.png" class="splash" /></div>
-    <h1>Intelligent Document Navigator</h1>
+    <h1>Channel Intelligence</h1>
 </div>
 
 <div class="quick_facts">
     <ul class="block-list col3">
         <li>
             <h3>Summary</h3>
-            Most of the average patient's medical record is simple, narrative text. This tool leveraged natural language processing to help care providers find the most important information faster.
+            Reach new shoppers and increase sales
+            Channel Intelligence, by Google, optimizes product visibility on shopping engines by
+            levering bidding expertise, data optimization technology, and data quality monitoring, thereby boosting performance.
+
+
+
         </li>
         <li>
             <h3>Methods</h3>
-            Shadowing, contextual interviews, wireframing, prototyping, usability testing, front-end development
+            Big data, front-end development, data feeds, data integration,
+            analytics, transpilation
         </li>
         <li>
             <h3>Client</h3>
-            Initial pilot with the <a href="https://www.upmc.com/">UPMC Department of Cardiology</a>, before being deployed system-wide
+            Migration project absorbing <a href="http://www.ciboost.com/">Channel Intelligence</a>
+            technology into end client <a href="http://www.google.com/">Google</a>'s platform.
         </li>
     </ul>
 </div>
@@ -23,19 +30,25 @@
 <section>
     <h2>THE PROBLEM</h2>
     <p>
-        Although the amount of tests, batteries, poking, and prodding patients endure is ever increasing, simple text notes still make up 80% of the typical electronic medical record. These notes can be pages long, and take minutes to read through fully. With so little time to spend with each patient, doctors and nurses can only skim a few notes, and hope nothing too important was buried on page 7 of a note three tabs away. Even after finding relevant information, they still need to synthesize that data with the rest of the patient's chart.
+        Google acquired Channel Intelligence to bolster its e-commerce offerings.
+        Specifically, it needed a way to take a variety of data streams from partners and
+        optimally place ads not only on Google Shopping but on a variety of channels
+        such as Nexttag, PriceGrabber, Shopzilla, and Shopping.com.
     </p>
 </section>
 
-<img src="assets/imgs/pangea/postits.jpg" class="pull-right art" />
+<img src="assets/imgs/idn/CILoop-253x300.png" class="pull-right art" />
 
 <section>
     <h2>THE SOLUTION</h2>
     <p>
-        The <strong>Intelligent Document Navigator</strong> (IDN) does what it says on the tin, assisting doctors as they navigate the plethora of clinical documents in a patient's medical record. With the tool, doctors can view related documents, see automatic document summaries, analyze health measurements across documents over time, highlight important documents for other doctors, filter by specialty, and more.
+        Channel Intelligence (CI) does what it says on the tin, creating a pipeline designed to create uniformity
+        across data sources and can automatically bid directly to all the channels.
     </p>
     <p>
-        The IDN leverages natural language processing to pinpoint important phrases throughout the documents. Special algorithms pull together this data and more to uncover hidden relationships between documents, and personalize the experience to how the current user normally navigates.
+        It also detects errors in the stream and will prevent the bad data from making it
+        further down the stream. This avoids having accounts flagged, ineffective ad spend, or
+        incorrect prices/products from going live.
     </p>
 </section>
 
@@ -45,20 +58,25 @@
     <section>
         <p><h3>Research</h3></p>
         <p>
-            To understand how care givers interact with the electronic medical record, I spent weeks shadowing doctors, interviewing staff, and reviewing copious related literature. Through shadowing doctors as they rounded and met with patients, I was able to observe how notes were created, reviewed, copied, printed, ignored, loved, and hated. Through interviews, I learned about the life of notes outside of the hospital, dove deep into their informational needs, and more. And through extensive reading, I could compare the struggles of UPMC with other hospital systems around the world, and gain insight into past attempts to solve the problem.
+            The team spent weeks learning both the Google and CI tech stack, as we prepared to migrate
+            over 120 top retailers including, Reebok, Victoria Secret, Office Depot, and Bose.
+            Once we had learned the differences, we were prepared to execute the migration of logic and data.
         </p>
     </section>
 
     <section>
         <p><h3>Prototyping & Testing</h3></p>
         <p>
-            Based on the research findings, I experimented with various solutions designed to improve three main areas: <strong>discovery</strong>, <strong>comprehension</strong>, and <strong>speed</strong>. Through prototyping and usability testing, I was able to learn which interactions made sense to doctors, and what data they found most important.
+            We developed an internal tool to determine the readiness of retailers' feeds. This allowed us to quickly
+            identify where problems would occur if the legacy feed was ingested by CI.
+            Based on these findings, we would schedule calls with account managers as needed to advise them
+            of the remedies they would have to implement on their end.
         </p>
         <p>
-            The prototypes ranged in fidelity, including simple storyboards sketched on paper, click-through prototypes in Keynote, and interactive HTML/JavaScript prototypes. Each prototype was tested with doctors during on-site usability testing sessions.
+            The data quality ranged in fidelity, with some retailers ready to go on Day 1, while others had much work to do.
         </p>
         <p>
-            The HTML prototypes were eventually replaced with live, pre-release versions of the product. I worked directly in the codebase, implementing tweaks and experimental features derived from user feedback.
+            Eventually all the feeds were made good, and we were ready to migrate onto the Google version of CI.
         </p>
     </section>
 
@@ -79,10 +97,14 @@
     <section>
         <p><h3>Refinement</h3></p>
         <p>
-            The first prototypes used dummy data, and focused on the <em>kinds</em> of interactions and data the doctor would be experiencing. This allowed me to get quick and meaningful feedback on the proposed concepts without users getting bogged down in specifics.
+            Even after retailers corrected the issues that were raised, sometimes some items would still get flagged.
+            This could be for various reasons, such as a automation even further upstream, or poor inventory tracking. For small issues like this
+            we would direct the retailer to file support tickets to be handled by lower tier support.
         </p>
         <p>
-            Of course, testing tailor-made scenarios only gets you so far. As the iterations become more refined, I pulled sample data from de-identified patient charts to test exactly what information needed to be exposed to doctors. Seeing how the design performed with various datasets exposed the feasibility of each feature, and highlighted new avenues to explore in future releases.
+            Of course, if a large percentage of items were experiencing issues, our team was ready to assist
+            the retailer through our point of contact. Luckily, we were able to get most of the feeds mostly working on the first go, so
+            this case was rather rare.
         </p>
     </section>
 
