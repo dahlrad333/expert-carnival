@@ -277,7 +277,7 @@ img {
   position: absolute;
   bottom: 0;
   background: #FFF;
-  color: #e74c3c;
+  color: black;
   padding: 10px 10px 10px 0;
   mix-blend-mode: multiply;
 }
