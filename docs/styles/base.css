@@ -72,7 +72,7 @@ img {
 
 .top-o-the-page {
   animation: heroAnimation 30s infinite linear;
-  background: #c0392b url('/assets/imgs/asteroids_transparent.png');
+  background: url('/assets/imgs/asteroids_transparent.png');
 }
 
 @keyframes heroAnimation {
@@ -120,6 +120,7 @@ img {
   color: #FFF;
   text-decoration: none;
   padding-bottom: 6px;
+  mix-blend-mode: difference;
 }
 
 #header a.active,
@@ -162,6 +163,7 @@ img {
   font-size: 50px;
   margin: 40px 0 0 0;
   color: #fff;
+  font-family: monospace;
 }
 
 #intro h2 {
